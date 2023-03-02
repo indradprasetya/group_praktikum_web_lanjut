@@ -8,7 +8,7 @@
                         <li class="rss"><a href="#" class="fa fa-rss"></a></li>
                         <li class="linkedin"><a href="#" class="fa fa-linkedin"></a></li>
                     </ul>
-                    <p>Copyright &copy; 2084 Company Name</p>
+                    <p>Copyright &copy; 2023 Indra and Jauhar</p>
                 </div>
             </div>
         </div>
