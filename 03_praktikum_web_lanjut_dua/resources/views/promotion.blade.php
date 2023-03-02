@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Promotion</h3>
+                    <h3>Promotion {{$name}}</h3>
                 </div>
             </div>
         </div>

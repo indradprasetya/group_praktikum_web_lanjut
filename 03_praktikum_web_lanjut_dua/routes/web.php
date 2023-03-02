@@ -14,7 +14,22 @@ Route::get('/product', function () {
     return view('product');
 });
 
-Route::get('/promotion', function () {
-    return view('promotion');
+Route::prefix('promotion')->group(function () {
+    Route::get('/', function () {
+        return view('promotion')
+        ->with('name', '');
+    });
+    Route::get('/book', function () {
+        return view('promotion')
+        ->with('name', 'Buku Ajar');
+    });
+    Route::get('/pen', function () {
+        return view('promotion')
+        ->with('name', 'Polpen Ajaib');
+    });
+    Route::get('/pencil', function () {
+        return view('promotion')
+        ->with('name', 'Pensil Pintar');
+    });
 });
 
