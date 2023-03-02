@@ -43,53 +43,11 @@
 
     <!-- SLIDER -->
     @section('slider')
-        <div class="site-slider">
-            <div class="flexslider" style="margin-top: -20px">
-                <ul class="slides">
-                    <li class="slide">
-                        <div class="overlay"></div>
-                        <img src="{{ asset('images/slide1.jpg') }}" alt="">
-                        <div class="slider-caption">
-                            <div class="title">
-                                <h2>WEB DESIGN</h2>
-                                <h2>INSPIRATION</h2>
-                            </div>
-                            <a href="#" class="slider-button">Download</a>
-                        </div>
-                    </li>
-                    <li class="slide">
-                        <div class="overlay"></div>
-                        <img src="{{ asset('images/slide2.jpg') }}" alt="">
-                        <div class="slider-caption">
-                            <div class="title">
-                                <h2>DEVELOPMENT</h2>
-                                <h2>TEMPLATEMO</h2>
-                            </div>
-                            <a href="#" class="slider-button">Read More</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div> <!-- .site-slider -->
+        @include('layouts.slider')
     @show
 
     <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <ul class="social">
-                        <li class="twitter"><a href="#" class="fa fa-twitter"></a></li>
-                        <li class="facebook"><a href="#" class="fa fa-facebook"></a></li>
-                        <li class="rss"><a href="#" class="fa fa-rss"></a></li>
-                        <li class="linkedin"><a href="#" class="fa fa-linkedin"></a></li>
-                    </ul>
-                    <p>Copyright &copy; 2084 Company Name</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
+        @include('layouts.footer')
     <script src="{{ asset('js/vendor/modernizr-2.6.2.min.js') }}"></script>
     <script src="{{ asset('js/vendor/jquery-1.10.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
