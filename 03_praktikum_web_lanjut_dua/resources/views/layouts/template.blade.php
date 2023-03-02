@@ -36,11 +36,15 @@
       @include('layouts.header')
     </div> <!-- .site-header -->
 
+    <!-- CONTENT -->
+    <div class="content">
+      @yield('content')
+    </div>
 
     <!-- SLIDER -->
     @section('slider')
         <div class="site-slider">
-            <div class="flexslider">
+            <div class="flexslider" style="margin-top: -20px">
                 <ul class="slides">
                     <li class="slide">
                         <div class="overlay"></div>
@@ -68,11 +72,6 @@
             </div>
         </div> <!-- .site-slider -->
     @show
-
-    <!-- CONTENT -->
-    <div class="content">
-      @yield('content')
-    </div>
 
     <!-- FOOTER -->
     <footer class="site-footer">
