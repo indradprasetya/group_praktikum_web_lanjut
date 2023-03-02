@@ -11,8 +11,8 @@
           <div class="collapse navbar-collapse" id="main-menu">
               <ul class="nav navbar-nav navbar-right">
                   <li><a href="{{ asset('') }}">Home</a></li>
-                  <li><a href="promotion.html">Promotion</a></li>
-                  <li><a href="products.html">Products</a></li>
+                  <li><a href="{{ asset('promotion') }}">Promotion</a></li>
+                  <li><a href="{{ asset('product') }}">Products</a></li>
                   <li><a href="{{ asset('contact-us') }}">Contact</a></li>
               </ul>
           </div>
