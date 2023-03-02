@@ -10,3 +10,11 @@ Route::get('/contact-us', function () {
     return view('contact-us');
 });
 
+Route::get('/product', function () {
+    return view('product');
+});
+
+Route::get('/promotion', function () {
+    return view('promotion');
+});
+
