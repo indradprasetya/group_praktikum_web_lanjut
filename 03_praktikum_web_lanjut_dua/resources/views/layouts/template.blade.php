@@ -8,16 +8,16 @@
     <title>@yield('title')</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
-    <!-- 
+    <!--
     Stone Template
     http://www.templatemo.com/preview/templatemo_452_stone
     -->
     <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    
+
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href=" {{ asset('css/font-awesome.min.css') }}">
-    
+
     <!-- Normailize Stylesheet -->
     <link rel="stylesheet" href="{{ asset('css/normalize.min.css') }}">
 
@@ -64,13 +64,13 @@
                     </div>
                 </li>
             </ul>
-        </div>   
+        </div>
     </div> <!-- .site-slider -->
 
     <!-- CONTENT -->
     <div class="content">
-      @include('layouts.content')
-    </div>   
+      @yield('content')
+    </div>
 
     <!-- FOOTER -->
     <footer class="site-footer">
@@ -93,7 +93,7 @@
     <script src="{{ asset('js/vendor/jquery-1.10.1.min.js') }}"></script>
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/plugins.js') }}"></script>
-    <script src="{{ asset('js/main.js') }}"></script>    
-    
+    <script src="{{ asset('js/main.js') }}"></script>
+
 </body>
 </html>
