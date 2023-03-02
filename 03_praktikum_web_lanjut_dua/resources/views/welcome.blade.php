@@ -2,6 +2,16 @@
 @section('title', 'Dashboard')
 
 @section('content')
+    <div class="page-h">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Dashboard</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="first-section">
         <div class="container">
             <div class="row">
@@ -41,5 +51,8 @@
             </div>
         </div>
       </div>
+@endsection
 
+@section('slider')
+    @parent
 @endsection
