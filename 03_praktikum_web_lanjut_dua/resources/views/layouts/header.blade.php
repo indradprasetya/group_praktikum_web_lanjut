@@ -10,12 +10,12 @@
           </div>
           <div class="collapse navbar-collapse" id="main-menu">
               <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="{{ asset('') }}">Home</a></li>
                   <li><a href="promotion.html">Promotion</a></li>
                   <li><a href="products.html">Products</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="{{ asset('contact-us') }}">Contact</a></li>
               </ul>
           </div>
-      </nav>         
+      </nav>
   </div>
 </div>
